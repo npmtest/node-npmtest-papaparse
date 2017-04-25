@@ -1,6 +1,6 @@
 # npmtest-papaparse
 
-#### test coverage for  [papaparse (v4.2.0)](http://papaparse.com)  [![npm package](https://img.shields.io/npm/v/npmtest-papaparse.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-papaparse) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-papaparse.svg)](https://travis-ci.org/npmtest/node-npmtest-papaparse)
+#### basic test coverage for  [papaparse (v4.2.0)](http://papaparse.com)  [![npm package](https://img.shields.io/npm/v/npmtest-papaparse.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-papaparse) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-papaparse.svg)](https://travis-ci.org/npmtest/node-npmtest-papaparse)
 
 #### Fast and powerful CSV parser for the browser that supports web workers and streaming large files. Converts CSV to JSON and JSON to CSV.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-papaparse/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-papaparse/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-papaparse/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-papaparse/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-papaparse/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-papaparse/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-papaparse/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-papaparse/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-papaparse/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-papaparse/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-papaparse/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-papaparse/build/coverage.html/index.html)
 
@@ -111,7 +111,8 @@
         "test-node": "mocha tests/node-tests.js tests/test-cases.js",
         "test-phantomjs": "node tests/test.js --phantomjs"
     },
-    "version": "4.2.0"
+    "version": "4.2.0",
+    "bin": {}
 }
 ```
 
